@@ -1,0 +1,90 @@
+*{margin: 0;
+  padding:0;;
+  }
+
+html { scroll-behavior: smooth;
+         height: 100%;
+      }
+
+#body {  background-image: url(wallpaper-port.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-attachment: fixed;
+         background-position: right;
+         position: relative;
+         min-height: 100%;
+         margin:0;
+         box-sizing: inherit;
+         padding-bottom: 6.74rem;
+       }
+ 
+.navbar{ background-color: black;
+          display:flex;
+          height: 50px;
+          justify-content:center;
+        }
+ 
+
+a { text-decoration: none;
+    color:white;
+    display: inline-block;
+    padding: 15px 20px;
+    font-family: 'Inter', sans-serif;
+  }
+
+#secBio { display: flex;
+          margin-top: 223px;
+          margin-left: 81px;
+          height: 15%;
+          width: 30%;
+          color: rgb(0, 0, 0);
+          text-align:justify;
+        }
+
+#secHab { display: flex;
+          margin-top: 223px;
+          margin-left: 81px;
+          height: 15%;
+          width: 30%;
+          color: rgb(0, 0, 0);
+        }
+
+#secAtiv{ display: flex;
+          margin-top: 223px;
+          margin-left: 81px;
+          height: 15%;
+          width: 30%;
+          color: rgb(0, 0, 0);
+        }
+
+footer  { display: flex;
+          background-color: black;
+          position: absolute;
+          margin: 0;
+          left:0;
+          bottom:0;
+          right: 0;
+          justify-content:center ;
+          flex-wrap: nowrap;
+
+        }
+
+h1 {font-family: 'Inter', sans-serif;
+font-size: 150%; }
+
+h2{font-family: 'Inter', sans-serif;
+  font-size: 120%; }
+    
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 115%; }
+            
+section {min-height: 100vh; }
+
+ul{
+  font-family: 'Fredoka', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+
